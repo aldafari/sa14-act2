@@ -10,38 +10,40 @@
         body{
             
             display: flex;
-            justify-self: center;
+            justify-content: center;
             align-items: center;
-            min-height: 100vh;
+            height: 100vh;
         }
-        .wrapper{
-            
+        .parent-wrapper{
             display: flex;
             justify-content: center;
             align-items: center;
-            margin-top: ;
             background-color: #e6f0fb;
             width: 100vw;
-            height: 80%;
-            border: 2px solid; 
-            width: 100vw;
-            height: 80vh;
-        }
-        h1{
+            height: 90vh;
             
-            font-size: ;
-           
-            text-decoration: ;
         }
+        .parent-wrapper h1{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .child-wrapper{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 80vw;
+            height: 70vh;
+            
+        }
+       
         .container{
             display: flex;
             justify-content: space-between;
             align-items: center;
-            
-            margin-top: ;
             background-color: #FFF;
-            height: 550px;
-            width: 850px;
+            height: 60vh;
+            width: 70vw;
             border-radius: 15px;  
             box-shadow: 0 0 8px #333;
             
@@ -82,30 +84,6 @@
             box-shadow: 0 0 8px #333;
         }
         
-        input{
-            font-size: ;
-            padding: ;
-            width: ;
-            border-radius: ;
-            
-          
-        }
-        .input-data{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-          
-            
-        }
-        .btn{
-            
-            font-size: ;
-            cursor: pointer;
-            border-radius: ;
-        
-            
-        }
-        
       
     </style>
     <meta charset="UTF-8">
@@ -113,22 +91,26 @@
     <title>Weather</title>
 </head>
 <body> 
-    <div class = "wrapper">
-        <div class = "container">
-            <div class = "time">
-
-            </div>
-            <div class = "temp">
-                
-            </div>
-            <div class = "temp-icons">
-                
-            </div>
-            <div class = "humidity">
-                
-            </div>
-            <div class = "forecast">
-                
+    
+    <div class = "parent-wrapper">
+       
+        <div class = "child-wrapper">
+            <div class = "container">
+                <div class = "time">
+                    <p>Time:</p>
+                </div>
+                <div class = "temp">
+                    <p>Temperature:</p>
+                </div>
+                <div class = "temp-icons">
+                    <p>Time-icons:</p>
+                </div>
+                <div class = "humidity">
+                    <p>Humidity:</p>
+                </div>
+                <div class = "forecast">
+                    <p>Forecast:</p>
+                </div>
             </div>
         </div>
     </div>
