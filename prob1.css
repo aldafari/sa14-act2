@@ -44,14 +44,9 @@ input:focus{
         
 }
 .btn{
-    font-size: 1.5em;
-    padding: 10px;
     background-color: #0080FF;
     color: #fff; 
-    font-weight: 550;
-    border: transparent;
-    
-
+    /*border: transparent;*/
 }
 .btn:hover{
 cursor: pointer; 
