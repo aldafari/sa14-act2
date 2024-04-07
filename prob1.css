@@ -13,6 +13,8 @@ body{
     height: 100vh;
 }
 .container{
+    display: flex; 
+    justify-content: center;
     background-color: #FFF;
     height: 50vh;
     width: 35vw;
@@ -20,11 +22,12 @@ body{
     box-shadow: 0 0 8px #333;
     
 }
+.search-city{
+   margin-top: 5%;
+}
 input{
-    
-    margin-left:;
-    font-size: ;
-    padding:;
+    font-size: 1.5em;
+    padding: 5px;
    
 }
 input:hover{
@@ -42,8 +45,8 @@ input:focus{
 }
 .btn{
   
-    font-size: ;
-    padding: ;
+    font-size: 1.6em;
+    padding: 5px;
     background-color: #0080FF;
     color: #fff; 
     font-weight: 550;
