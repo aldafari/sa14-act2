@@ -11,98 +11,53 @@
         }
         body{
             
-            display: flex; 
+            display: flex;
 			align-items: center; 
 			justify-content: center;
             height: 100vh;
         }
-        .parent-wrapper{
-            
-            background-color: #e6f0fb;
-            width: 100vw;
-            height: 90vh;
+        .container{
+            background-color: #FFF;
+            height: 50vh;
+            width: 35vw;
+            border-radius: 15px;  
+            box-shadow: 0 0 8px #333;
             
         }
-        .parent-wrapper h1{
-            margin-top: 80px;
-            margin-bottom: -40px; 
-            margin-left: 207px;
-         
+        input{
             
-			
-        }
-        .parent-wrapper input{
-            margin-left: 720px;
-            font-size: 1.5em;
-            padding: 5px;
-            
-            width: 30%
+            margin-left:;
+            font-size: ;
+            padding:;
+           
         }
         input:hover{
-				border: 2px solid #808080;
-				box-shadow: 0 0 5px #0080FF;
-				outline: none;
-				border: 1px solid #0080FF;
-		}
-		
-		input:focus{
-				box-shadow: 0 0 5px #0080FF;
-				outline: none;
-				border: 1px solid #0080FF;
-				
-		}
-        .parent-wrapper .btn{
-            font-size: 1.5em;
-            padding: 7px;
-			background-color: #0080FF;
-			color: #fff; 
-			font-weight: 550;
-			border: transparent;
-		
+            border: 2px solid #808080;
+            box-shadow: 0 0 5px #0080FF;
+            outline: none;
+            border: 1px solid #0080FF;
         }
-        .btn:hover{
-			cursor: pointer; 
-			background-color: #1167b1;
-		}
+
+        input:focus{
+            box-shadow: 0 0 5px #0080FF;
+            outline: none;
+            border: 1px solid #0080FF;
+                
+        }
+        .btn{
+          
+            font-size: ;
+            padding: ;
+            background-color: #0080FF;
+            color: #fff; 
+            font-weight: 550;
+            border: transparent;
         
-        .child-wrapper{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 80vw;
-            height: 70vh;
-            margin-left: 9%;
-            
         }
-       
-        .container{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: #FFF;
-            height: 60vh;
-            width: 70vw;
-            border-radius: 15px;  
-            box-shadow: 0 0 8px #333;
-            
-        }
-        .time{
-            height: 150px;
-            width: 150px;
-           
-            border-radius: 15px;  
-            box-shadow: 0 0 8px #333;
-        }
-        .temp{
-            height: 150px;
-            width: 150px;
-           
-            border-radius: 15px;  
-            box-shadow: 0 0 8px #333;
-        }
-        
-        
-        
+   .btn:hover{
+       cursor: pointer; 
+       background-color: #1167b1;
+   }
       
     </style>
     <meta charset="UTF-8">
@@ -110,23 +65,9 @@
     <title>Weather</title>
 </head>
 <body> 
-   
-    <div class = "parent-wrapper">
-        <h1>Weather Dashboard</h1>
-        <input type="text" placeholder="Search City...">
-        <button class = "btn" type="submit">Lookup</button>
-        <div class = "child-wrapper">
-            <div class = "container">
-                <div class = "time">
-                    <p>Time:</p>
-                </div>
-                <div class = "temp">
-                    <p>Temperature:</p>
-                </div>
-               
-                
-            </div>
-        </div>
+    <div class = "container">
+       <input type="text" placeholder="Search City...">
+       <button class = "btn" type="submit">Lookup</button>
     </div>
 </body>
 </html>
