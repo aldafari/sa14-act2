@@ -5,41 +5,79 @@
         *{
             padding: 0;
             margin: 0;
-            font-family: 'Roboto', sans-serif;
+            box-sizing: border-box;
+			font-family: Roboto, sans-serif;
+            
         }
         body{
             
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            display: flex; 
+			align-items: center; 
+			justify-content: center;
             height: 100vh;
         }
         .parent-wrapper{
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            
             background-color: #e6f0fb;
             width: 100vw;
             height: 90vh;
             
         }
         .parent-wrapper h1{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
+            margin-top: 80px;
+            margin-bottom: -40px; 
+            margin-left: 207px;
+         
+            
+			
         }
+        .parent-wrapper input{
+            margin-left: 720px;
+            font-size: 1.5em;
+            padding: 5px;
+            
+            width: 30%
+        }
+        input:hover{
+				border: 2px solid #808080;
+				box-shadow: 0 0 5px #0080FF;
+				outline: none;
+				border: 1px solid #0080FF;
+		}
+		
+		input:focus{
+				box-shadow: 0 0 5px #0080FF;
+				outline: none;
+				border: 1px solid #0080FF;
+				
+		}
+        .parent-wrapper .btn{
+            font-size: 1.5em;
+            padding: 7px;
+			background-color: #0080FF;
+			color: #fff; 
+			font-weight: 550;
+			border: transparent;
+		
+        }
+        .btn:hover{
+			cursor: pointer; 
+			background-color: #1167b1;
+		}
+        
         .child-wrapper{
             display: flex;
             align-items: center;
             justify-content: center;
             width: 80vw;
             height: 70vh;
+            margin-left: 9%;
             
         }
        
         .container{
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
             align-items: center;
             background-color: #FFF;
             height: 60vh;
@@ -62,27 +100,8 @@
             border-radius: 15px;  
             box-shadow: 0 0 8px #333;
         }
-        .temp-icons{
-            height: 150px;
-            width: 150px;
-           
-            border-radius: 15px;  
-            box-shadow: 0 0 8px #333;
-        }
-        .humidity{
-            height: 150px;
-            width: 150px;
-            
-            border-radius: 15px;  
-            box-shadow: 0 0 8px #333;
-        }
-        .forecast{
-            height: 150px;
-            width: 150px;
-         
-            border-radius: 15px;  
-            box-shadow: 0 0 8px #333;
-        }
+        
+        
         
       
     </style>
@@ -91,9 +110,11 @@
     <title>Weather</title>
 </head>
 <body> 
-    
+   
     <div class = "parent-wrapper">
-       
+        <h1>Weather Dashboard</h1>
+        <input type="text" placeholder="Search City...">
+        <button class = "btn" type="submit">Lookup</button>
         <div class = "child-wrapper">
             <div class = "container">
                 <div class = "time">
@@ -102,15 +123,8 @@
                 <div class = "temp">
                     <p>Temperature:</p>
                 </div>
-                <div class = "temp-icons">
-                    <p>Time-icons:</p>
-                </div>
-                <div class = "humidity">
-                    <p>Humidity:</p>
-                </div>
-                <div class = "forecast">
-                    <p>Forecast:</p>
-                </div>
+               
+                
             </div>
         </div>
     </div>
