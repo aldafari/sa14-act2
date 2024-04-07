@@ -11,7 +11,7 @@ body{
     align-items: center; 
     justify-content: center;
     height: 100vh;
-    background-color: black;
+    background: linear-gradient(135deg, #00feba, #5b548a);
 }
 .container{
     width: 90%;
@@ -22,7 +22,7 @@ body{
     padding: 40px 35px;
     text-align: center; 
     box-shadow: 0 0 8px #333;
-    background-color: gray;
+    background-color: #ede8e8;
     
 }
 .search-city{
@@ -53,9 +53,9 @@ input:hover{
 }
 
 input:focus{
-    box-shadow: 0 0 5px #0080FF;
+    box-shadow: 0 0 5px #5fa8f1;
     outline: none;
-    border: 1px solid #0080FF;
+    border: 1px solid #5fa8f1;
         
 }
 .btn{
