@@ -26,6 +26,12 @@ body{
 .date{
     margin-top: ;
 }
+.degrees{
+    margin-top: -4%;
+}
+.clear h2{
+    margin-bottom: 2%;
+}
 .degrees h1{
     font-size: 3.5em;
 }
