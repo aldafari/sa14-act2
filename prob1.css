@@ -64,10 +64,9 @@ input:focus{
         
 }
 .btn{
-    border: 0;
+    border: 0;    
     outline: 0;
     background: rgb(234, 234, 234);
-    border-color: transparent;
     border-radius: 50%;
     width: 60px;
     height: 53px;
@@ -75,11 +74,9 @@ input:focus{
     color: #fff; 
     margin-top: 20px;
     margin-left: -76px; 
-    /*border: transparent;*/
 }
 .btn:hover{
-cursor: pointer; 
-
+    cursor: pointer;
 }
 .btn img{
     width: 16px;
@@ -95,7 +92,6 @@ cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
 .wind img{
     display: flex;
