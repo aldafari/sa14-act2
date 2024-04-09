@@ -88,6 +88,7 @@ input:focus{
     cursor: pointer;
 }
 .btn img{
+    margin-top: 5%;
     width: 16px;
    
 }
