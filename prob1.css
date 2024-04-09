@@ -26,6 +26,9 @@ body{
 .date{
     margin-top: ;
 }
+.degrees h1{
+    font-size: 3.5em;
+}
 .city{
     margin-top: 4%;
 }
