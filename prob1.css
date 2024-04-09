@@ -20,7 +20,11 @@ body{
     background: rgba(0, 0, 0, 0.09);
 }
 .time{
+    margin-bottom: 1%;
    
+}
+.date{
+    margin-top: ;
 }
 .city{
     margin-top: 4%;
