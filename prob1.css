@@ -6,8 +6,8 @@
     
 }
 body{
-    min-height: 100vh;
-    background: linear-gradient(135deg, #44d1e6, #2b8ff2);
+ 
+    background: linear-gradient(130deg, #44d1e6, #2b8ff2);
     
 }
 .container{
@@ -22,6 +22,9 @@ body{
 }
 .time{
    
+}
+.city{
+    margin-top: 4%;
 }
 .search-city{
    width: 100%;
@@ -63,9 +66,10 @@ input:focus{
     background-color: #5fa8f1;
     border-radius: 50%;
     width: 60px;
-    height: 60px;
+    height: 55px;
     cursor: pointer;
     color: #fff; 
+    margin-top: 23px;
     /*border: transparent;*/
 }
 .btn:hover{
