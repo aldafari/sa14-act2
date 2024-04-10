@@ -56,8 +56,6 @@ body{
     background: rgb(234, 234, 234);
     color: #555;
     margin-top: 5%;
-
-   
 }
 input:hover{
     border: 2px solid #808080;
@@ -70,7 +68,6 @@ input:focus{
     box-shadow: 0 0 5px #479df2;
     outline: none;
     border: 1px solid #479df2;
-        
 }
 .btn{
     border: 0;    
@@ -90,7 +87,6 @@ input:focus{
 .btn img{
     margin-top: 5%;
     width: 16px;
-   
 }
 .date{
     
@@ -131,5 +127,4 @@ input:focus{
 .humidity p4, p5, p6{
     font-size: 1.2em;
     margin-left: 10px;
-    
 }
