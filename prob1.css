@@ -3,7 +3,6 @@
     margin: 0;
     box-sizing: border-box;
     font-family: Roboto, sans-serif;
-    
 }
 body{
     height: 100vh;
@@ -23,9 +22,7 @@ body{
     margin-bottom: 1%;
    
 }
-.date{
-    margin-top: ;
-}
+
 .degrees{
     margin-top: -4%;
 }
